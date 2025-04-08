@@ -25,7 +25,7 @@ Wie du und Alis vielen Kinder mithelfen können wird weiter unten erklärt.
 Es gibt mehrere Möglichkeiten die Referenz zu öffnen.
 
 > ### Variante 1: Über die Webseite
-> Öffne die Referenz unter Github Pages mit diesem Link >>> [INF Reference !Link fehlt noch!]()
+> Öffne die Referenz mit diesem Link >>> [INF Reference](https://oas05.github.io/INF-Referenz/)
 
 > ### Variante 2: Offline Zugriff
 > Diese Variante ist hilfreich, wenn du mithelfen möchtest oder Internet keine Option ist.  
