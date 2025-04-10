@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/cover.css">
+    <link rel="stylesheet" href="styles/general.css">
     <title>INF-Referenz</title>
 </head>
 <body>
-    <h1>INF Referenz</h1>
+    <h1 class="base-verdana" id="title">INF Referenz</h1>
     <hr>
     <div class="navbar">
-        <nav>
+        <nav class="base-verdana">
             Alle Seiten nach:
-            <a href="/sites/navigation/topics.html">Themen</a>
-            <a href="/sites/navigation/subjects.html">Fächer</a>
-            <a href="/sites/navigation/grades.html">Jahre</a>
+            <a class="tablink" href="/sites/navigation/topics.html">Themen</a>
+            <a class="tablink" href="/sites/navigation/subjects.html">Fächer</a>
+            <a class="tablink" href="/sites/navigation/grades.html">Jahre</a>
         </nav>
         <div class="searchbar">
-            <input type="text" id="searchbox" placeholder="Suche...">
-            <button type="button"><img src="resources/search_icon.png" alt="submit"></button>
+            <input type="text" class="base-verdana" id="searchbox" placeholder="Suche...">
+            <button type="button" class="search-submit-button"><img src="resources/images/search_icon_big.svg" alt="submit"></button>
+            <ul class="suggestions base-verdana">
+            </ul>
         </div>
     </div>
-    <div class="content">
-        xy
+    <div class="content base-verdana">
+        Die INF Referenz ist eine Sammlung aller Inhalte der Berufsfächer des Staatlich geprüften Informatikers. <br>
+        Sie enthält vorerst nur Inhalte, die etwas mit Programmieren zu tun haben!
     </div>
 </body>
 </html>

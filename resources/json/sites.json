@@ -1,0 +1,5 @@
+{
+    "sitelist":[
+        {"template":"sites/template/example.html"}
+    ]
+}

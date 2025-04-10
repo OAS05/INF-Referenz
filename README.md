@@ -1,8 +1,8 @@
 INF Referenz
 ============ 
-## *Ein Cheat-Sheet zum staatlich geprüften Informatiker*
+## *Ein Cheat-Sheet zum Staatlich geprüften Informatiker*
 
-Die INF Referenz ist eine **Sammlung aller Inhalte** der Berufsfächer **des staatlich geprüften Informatikers.**  
+Die INF Referenz ist eine **Sammlung aller Inhalte** der Berufsfächer **des Staatlich geprüften Informatikers.**  
 (vorerst nur programmierbezogene Inhalte)  
   
 Dies ist ein **"Community"-Projekt**. Jeder darf und sollte Vorschläge machen, damit alle davon profitieren können.  
