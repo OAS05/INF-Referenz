@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: slategrey;
+}
+
+.navbar {
+    background-color: silver;
+}
+
+nav {
+    
+    padding: 5vh 3vw 3vh;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Verdana';
+    
+}
+
+.searchbar {
+    background-color: white;
+    margin: 3vh 20%;
+    width: 60%;
+    border: 3px black solid;
+    border-radius: 15px;
+    padding: 2vh 1vw;
+}
+
+.searchbar:active {
+    border: 3px firebrick solid;
+}
+
+.searchbar > {
+    
+}
+
+#searchbox {
+    width: 90%;
+    font-family: 'Verdana';
+    font-size: 30px;
+    border: 0px;
+}
+
+a {
+    background-color: firebrick;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 2vh 5vw;
+}
+
+a:hover {
+    transition-duration: 200ms;
+    background-color: aliceblue;
+    color: firebrick;
+    outline: 3px firebrick solid;
+}
+
+h1 {
+    margin: 10vh 0vw;
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 80px;
+    color: firebrick;
+}
+
