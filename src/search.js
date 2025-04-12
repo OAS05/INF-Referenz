@@ -47,7 +47,7 @@ function updatePreview(event) {
   preview_list = new Set(); //collects all previews, that will be shown
   preview_box = document.getElementsByClassName('preview-box')[0]; //the box in which the previews are appearing
   
-  const response = fetch('/resources/json/sites.json')
+  const response = fetch('resources/json/sites.json')
   .then((response) => response.json())
   .then((json) => {
     if (filter != "") {
