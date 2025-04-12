@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/cover.css">
-    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/cover.css">
+    <link rel="stylesheet" href="/styles/search.css">
+    <script src="/src/search.js"></script>
     <title>INF-Referenz</title>
 </head>
 <body>
     <h1 class="base-verdana" id="title">INF Referenz</h1>
-    <hr>
     <div class="navbar">
         <nav class="base-verdana">
             Alle Seiten nach:
@@ -17,12 +18,16 @@
             <a class="tablink" href="/sites/navigation/subjects.html">Fächer</a>
             <a class="tablink" href="/sites/navigation/grades.html">Jahre</a>
         </nav>
-        <div class="searchbar">
-            <input type="text" class="base-verdana" id="searchbox" placeholder="Suche...">
-            <button type="button" class="search-submit-button"><img src="resources/images/search_icon_big.svg" alt="submit"></button>
-            <ul class="suggestions base-verdana">
-            </ul>
-        </div>
+        <form onsubmit="enterSearch()">
+            <div class="search-module">
+                <div class="searchbar">
+                    <input type="text" class="base-verdana" id="searchbox" onkeyup="updatePreview(event)" placeholder="Suche..." autocomplete="off">
+                    <button type="submit" class="search-submit-button"><img src="/resources/images/search_icon_big.svg" alt="submit"></button>
+                </div>
+                <ul class="preview-box base-verdana">
+                </ul>
+            </div>
+        </form>
     </div>
     <div class="content base-verdana">
         Die INF Referenz ist eine Sammlung aller Inhalte der Berufsfächer des Staatlich geprüften Informatikers. <br>

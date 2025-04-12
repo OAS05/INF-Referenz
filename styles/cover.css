@@ -16,45 +16,10 @@ nav {
     padding: 5vh 3vw 3vh;
 }
 
-.searchbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin: 3vh 15%;
-    width: 70%;
-    outline: 3px black solid;
-    border-radius: 15px;
-    transition-duration: 100ms;
-}
-
-.searchbar:focus-within {
-    transition-duration: 100ms;
-    outline: 5px firebrick solid;
-}
-
-#searchbox {
-    text-align: left;
-    width: 88%;
-    border: 0px;
-    margin: 2vh 0vw 2vh 1vw;
-}
-
-#searchbox:focus {
-    outline: 0px;
-}
-
-.search-submit-button {
-    margin: 1vh 0vw;
-    width: 5vw;
-    height: 5vw;
-    border: 0px;
-    background-color: transparent;
-}
 
 .tablink {
     background-color: firebrick;
-    color: aliceblue;
+    color: whitesmoke;
     text-decoration: none;
     border-radius: 15px;
     padding: 2vh 5vw;
@@ -62,8 +27,16 @@ nav {
 }
 
 .tablink:hover {
+    cursor: pointer;
     transition-duration: 200ms;
-    background-color: aliceblue;
+    background-color: whitesmoke;
+    color: firebrick;
+    outline: 3px firebrick solid;
+}
+
+.tablink:focus {
+    transition-duration: 200ms;
+    background-color: whitesmoke;
     color: firebrick;
     outline: 3px firebrick solid;
 }
@@ -74,7 +47,10 @@ nav {
     color: firebrick;
 }
 
-.content {
-
-    
+div.content {
+    text-align: left;
+    width: 80%;
+    padding-left: 10%;
+    line-height: 3ch;
 }
+

@@ -1,5 +1,11 @@
 {
     "sitelist":[
-        {"template":"sites/template/example.html"}
+        { "name": "Beispielseite", "href":"/sites/template/example.html" },
+        { "name": "Template", "href":"/sites/template/example.html" },
+        { "name": "Liste nach Themen", "href":"/sites/navigation/topics.html" },
+        { "name": "Liste nach Jahren", "href":"/sites/navigation/grades.html" },
+        { "name": "Liste nach Fächern", "href":"/sites/navigation/subjects.html" },
+        { "name": "Hauptseite", "href":"/index.html" },
+        { "name": "acb", "href":"/sites/template/example.html" }
     ]
 }
