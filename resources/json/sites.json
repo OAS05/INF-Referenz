@@ -6,6 +6,6 @@
         { "name": "Liste nach Jahren", "href":"INF-Referenz/sites/navigation/grades.html" },
         { "name": "Liste nach Fächern", "href":"INF-Referenz/sites/navigation/subjects.html" },
         { "name": "Hauptseite", "href":"INF-Referenz/index.html" },
-        { "name": "acb", "href":"INF-Referenz/sites/template/example.html" }
+        { "name": "Startseite", "href":"INF-Referenz/index.html" }
     ]
 }

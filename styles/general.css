@@ -27,6 +27,7 @@
 }
 
 .base-li:hover, .base-li:hover a {
+    cursor: pointer;
     background-color: gainsboro;
     color: black;
 }
