@@ -1,6 +1,13 @@
 var focus_on_preview = 0;
 
+function locationType(){
+  if( window.location.protocol == 'file:' ){ return 0; }
+  if( !window.location.host.replace( /localhost|127\.0\.0\.1/i, '' ) ){ return 2; }
+  return 1;
+}
+
 window.onload = function() {
+  console.log(locationType());  
   if(location.pathname.split("/").slice(-1) == "index.html") {
     document.getElementById("searchbox").focus();
   }
